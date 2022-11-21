@@ -1,9 +1,11 @@
 <script>
 import JumbotronQuote from './JumbotronQuote.vue';
+import BannerList from './BannerList.vue'
 export default {
     name: 'AppMain',
     components: {
-        JumbotronQuote
+        JumbotronQuote,
+        BannerList
     }
 }
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
     <main id="site_main">
         <JumbotronQuote />
+        <BannerList />
     </main>
 </template>
 
