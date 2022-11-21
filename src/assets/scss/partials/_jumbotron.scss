@@ -1,0 +1,35 @@
+.jumbotron {
+    background-image: url(/src/assets/img/home-slider-62528242.jpg);
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    .bg_black {
+        background-color: #333333;
+    }
+
+    .bg_yellow {
+        background-color: #FED03D;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 0.75rem 3rem;
+        margin-left: 1rem;
+
+    }
+
+    h1 {
+        color: white;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: #FED03D;
+    }
+}
+
+.container {
+    line-height: 3rem;
+}
