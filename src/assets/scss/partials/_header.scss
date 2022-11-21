@@ -1,0 +1,27 @@
+#site_header {
+    padding: 0 4rem;
+}
+
+img {
+    width: 200px;
+}
+
+.navbar_right {
+    align-self: center;
+
+    .bg_a {
+        background-color: #FED03D;
+        padding: 0.5rem 2rem;
+    }
+
+    a {
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        padding: 1rem;
+
+        &.active {
+            color: #FED03D;
+        }
+    }
+}
