@@ -1,11 +1,13 @@
 <script>
 import JumbotronQuote from './JumbotronQuote.vue';
-import BannerList from './BannerList.vue'
+import BannerList from './BannerList.vue';
+import HomeWork from './HomeWork.vue'
 export default {
     name: 'AppMain',
     components: {
         JumbotronQuote,
-        BannerList
+        BannerList,
+        HomeWork
     }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
     <main id="site_main">
         <JumbotronQuote />
         <BannerList />
+        <HomeWork />
     </main>
 </template>
 

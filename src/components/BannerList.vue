@@ -46,19 +46,19 @@ export default {
                     ed
                     dolore magna aliqua ut enim ad minim veniam</p>
             </div>
+        </div>
 
-            <div class="banner">
-                <div class="row d-flex">
-                    <div class="col" v-for="item in items">
-                        <div class="card_specialist">
-                            <div class="image_item">
-                                <img :src="getImageUrl(item.icon)">
-                            </div>
+        <div class="banner">
+            <div class="row row-cols-4 d-flex">
+                <div class="col" v-for="item in items">
+                    <div class="card_specialist">
+                        <div class="image_item">
+                            <img :src="getImageUrl(item.icon)">
+                        </div>
 
-                            <div class="description_item">
-                                <h2>{{ item.text }}</h2>
-                                <p>{{ item.description }}</p>
-                            </div>
+                        <div class="description_item">
+                            <h2>{{ item.text }}</h2>
+                            <p>{{ item.description }}</p>
                         </div>
                     </div>
                 </div>
