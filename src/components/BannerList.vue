@@ -5,7 +5,7 @@ export default {
         return {
             items: [
                 {
-                    icon: 'home.svg',
+                    icon: 'icon_build.svg',
                     text: 'Buildings',
                     description: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
                 },
@@ -47,16 +47,18 @@ export default {
                     dolore magna aliqua ut enim ad minim veniam</p>
             </div>
 
-            <div class="banner d-flex">
-                <div class="item" v-for="item in items">
-                    <div class="card_specialist">
-                        <div class="image_item">
-                            <img :src="getImageUrl(item.icon)">
-                        </div>
+            <div class="banner">
+                <div class="row d-flex">
+                    <div class="col" v-for="item in items">
+                        <div class="card_specialist">
+                            <div class="image_item">
+                                <img :src="getImageUrl(item.icon)">
+                            </div>
 
-                        <div class="description_item">
-                            <h2>{{ item.text }}</h2>
-                            <p>{{ item.description }}</p>
+                            <div class="description_item">
+                                <h2>{{ item.text }}</h2>
+                                <p>{{ item.description }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,37 +70,5 @@ export default {
 </template>
 
 <style lang="scss">
-.specialist_modern {
-    margin-top: 7rem;
 
-    .banner {
-        margin-top: 4rem;
-
-        .card_specialist {
-            background-color: #F5F5F5;
-            margin-left: 1.5rem;
-            padding: 1.5rem;
-            border-radius: 10%;
-
-        }
-    }
-
-    img {
-        border: 1px solid black;
-        aspect-ratio: 1 / 1;
-        border-radius: 50%;
-        padding: 0.70rem;
-        width: 70px;
-    }
-
-    .title_spec {
-        padding-bottom: 1rem;
-        border-bottom: 2px solid #FED03D;
-        display: inline-block;
-    }
-
-    .description_spec {
-        padding: 2rem;
-    }
-}
 </style>

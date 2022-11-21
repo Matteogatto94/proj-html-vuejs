@@ -40,7 +40,7 @@ export default {
             <a :href="item.href" v-for="item in menu" :class="item.text === 'Home' ? 'active' : ''">
                 {{ item.text }}
             </a>
-            <a class="bg_a" href="#">Get Quote</a>
+            <a class="bg_quote" href="#">Get Quote</a>
         </div>
     </header>
 </template>

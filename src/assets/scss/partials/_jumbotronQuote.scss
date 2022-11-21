@@ -11,10 +11,23 @@
 
     .bg_black {
         background-color: #333333;
+        color: white;
+
+        &:hover {
+            background-color: #FED03D;
+            color: black;
+        }
     }
 
     .bg_yellow {
         background-color: #FED03D;
+        color: black;
+
+        &:hover {
+            background-color: #333333;
+            color: white;
+        }
+
     }
 
     a {
@@ -49,5 +62,10 @@
         background-color: black;
         color: white;
         padding: 0.75rem 3rem;
+
+        &:hover {
+            color: black;
+            background-color: white;
+        }
     }
 }

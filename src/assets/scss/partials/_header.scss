@@ -9,12 +9,13 @@ img {
 .navbar_right {
     align-self: center;
 
-    .bg_a {
+    .bg_quote {
         background-color: #FED03D;
         padding: 0.5rem 2rem;
 
         &:hover {
             color: white;
+            background-color: black;
         }
     }
 

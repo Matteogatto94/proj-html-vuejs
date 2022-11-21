@@ -6,11 +6,17 @@ export default {
 
 <template>
     <div class="jumbotron d-flex align-items-center text-center">
-        <div class="container">
+        <div class="container text-center">
             <h1>Building Inspiring Spaces</h1>
             <p>We Build Inspiring Residential & Commercial Spaces</p>
-            <a class="text-white bg_black" href="#">Explore Recent Work</a>
-            <a class="text-dark bg_yellow" href="#">Get a Quote Today</a>
+            <div class="all_button_jumbo d-flex justify-content-center">
+                <div class="recent_work">
+                    <a class="bg_black" href="#">Explore Recent Work</a>
+                </div>
+                <div class="quote_today">
+                    <a class="bg_yellow" href="#">Get a Quote Today</a>
+                </div>
+            </div>
         </div>
     </div>
 

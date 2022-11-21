@@ -1,0 +1,33 @@
+.specialist_modern {
+    margin-top: 7rem;
+
+    .banner {
+        margin-top: 4rem;
+
+        .card_specialist {
+            background-color: #F5F5F5;
+            margin-left: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 10%;
+
+        }
+    }
+
+    img {
+        border: 1px solid black;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        padding: 0.70rem;
+        width: 70px;
+    }
+
+    .title_spec {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #FED03D;
+        display: inline-block;
+    }
+
+    .description_spec {
+        padding: 2rem;
+    }
+}
