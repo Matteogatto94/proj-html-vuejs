@@ -13,6 +13,10 @@ import { faHouseChimney } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faClock } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faBuilding)
 library.add(faUsers)
@@ -24,6 +28,10 @@ library.add(faHouseChimney)
 library.add(faPhone)
 library.add(faEnvelope)
 library.add(faClock)
+library.add(faTwitter)
+library.add(faFacebookF)
+library.add(faYoutube)
+library.add(faInstagram)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
