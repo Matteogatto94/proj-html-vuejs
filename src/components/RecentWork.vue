@@ -25,7 +25,7 @@ export default {
 </script>
 
 <template>
-    <section class="recent_work">
+    <section class="recent_works">
         <div class="container">
             <div class="title_recent text-center">
                 <h2 class="title_spec">Explore Recent Work</h2>
@@ -52,7 +52,7 @@ export default {
                         <p>VIEW ALL PROJECTS</p>
                     </div>
                     <div class="col">
-                        <div class="recent-bottom"></div>
+                        <div class="recent_bottom"></div>
                     </div>
                 </div>
             </div>
