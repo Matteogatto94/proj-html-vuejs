@@ -1,0 +1,37 @@
+.home_owners {
+    background-image: url(/src/assets/img/home-parallax-144609983.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding: 6rem;
+}
+
+.title_owners {
+    border-bottom: 2px solid #FED03D;
+    display: inline;
+    color: white;
+}
+
+.owner_img {
+
+    img {
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+    }
+
+}
+
+.owner_description {
+    p {
+        color: white;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    span {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+}
