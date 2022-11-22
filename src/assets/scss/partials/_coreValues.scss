@@ -18,14 +18,26 @@
 
 .bg_2 {
     background-color: #4E6DA5;
+
+    &:hover {
+        background-color: #FED03D;
+    }
 }
 
 .bg_3 {
     background-color: #F6722A;
+
+    &:hover {
+        background-color: #FED03D;
+    }
 }
 
 .bg_4 {
     background-color: #A7CF47;
+
+    &:hover {
+        background-color: #FED03D;
+    }
 }
 
 .icon_core {

@@ -35,7 +35,7 @@ export default {
                         </span>
 
                         <div class="core_details">
-                            <h6 class="py-5 border_core">Highest Standards</h6>
+                            <h6 class="py-5 border_core title_yellow_core">Highest Standards</h6>
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                                 velit, sed quia</p>
                         </div>
@@ -48,7 +48,7 @@ export default {
                         </span>
 
                         <div class="core_details">
-                            <h6 class="py-5 border_core">Professional Team</h6>
+                            <h6 class="py-5 border_core title_yellow_core">Professional Team</h6>
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                                 velit, sed quia</p>
                         </div>
@@ -61,7 +61,7 @@ export default {
                         </span>
 
                         <div class="core_details">
-                            <h6 class="py-5 border_core">Professional Team</h6>
+                            <h6 class="py-5 border_core title_yellow_core">Professional Team</h6>
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                                 velit, sed quia</p>
                         </div>
