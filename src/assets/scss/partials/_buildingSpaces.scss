@@ -1,0 +1,48 @@
+.line_bottom {
+    background-color: #3F3F3F;
+    padding: 0.5rem;
+}
+
+.right_building {
+    line-height: 3rem;
+}
+
+.title_building_spaces {
+    color: white;
+    text-align: left;
+}
+
+.title_building {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #FED03D;
+    display: inline
+}
+
+.font_building {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.building_spaces {
+    margin-top: 7rem;
+    background-image: url(/src/assets/img/about-call-to-action-57862405.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.right_building {
+    a {
+        text-decoration: none;
+        color: black;
+        background-color: #FED03D;
+        padding: 0.75rem 3rem;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

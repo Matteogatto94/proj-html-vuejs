@@ -56,7 +56,7 @@ export default {
                 </div>
                 <div class="col">
                     <div class="card_core">
-                        <span class="icon_core">
+                        <span class="icon_core_bg_4">
                             <font-awesome-icon icon="fa-solid fa-lightbulb" class="icon_core bg_4" />
                         </span>
 
