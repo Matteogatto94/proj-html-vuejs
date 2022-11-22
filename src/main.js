@@ -10,6 +10,10 @@ import { faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
 import { faGear } from '@fortawesome/free-solid-svg-icons'
 import { faHouseChimney } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faClock } from '@fortawesome/free-solid-svg-icons'
+
 library.add(faBuilding)
 library.add(faUsers)
 library.add(faGlobe)
@@ -17,6 +21,9 @@ library.add(faSuitcase)
 library.add(faLightbulb)
 library.add(faGear)
 library.add(faHouseChimney)
+library.add(faPhone)
+library.add(faEnvelope)
+library.add(faClock)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
