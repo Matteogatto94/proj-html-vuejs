@@ -32,7 +32,7 @@ export default {
 
 <template>
     <header id="site_header" class="d-flex justify-content-between">
-        <div class="logo">
+        <div class="logo_header">
             <img src="../assets/img/construction_logo_retina.png" alt="">
         </div>
 

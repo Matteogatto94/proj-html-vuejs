@@ -16,6 +16,17 @@ export default {
                 <div class="quote_today">
                     <a class="bg_yellow" href="#">Get a Quote Today</a>
                 </div>
+
+            </div>
+        </div>
+        <div class="logo_jumbo d-flex flex-column">
+            <div class="demos">
+                <font-awesome-icon icon="fa-solid fa-folder" />
+                <p>Demos</p>
+            </div>
+            <div class="dollars">
+                <p class="font_jumbo"><span>$</span>39</p>
+                <p>On Sale</p>
             </div>
         </div>
     </div>
