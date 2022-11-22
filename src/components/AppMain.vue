@@ -2,12 +2,14 @@
 import JumbotronQuote from './JumbotronQuote.vue';
 import BannerList from './BannerList.vue';
 import HomeWork from './HomeWork.vue'
+import RecentWork from './RecentWork.vue'
 export default {
     name: 'AppMain',
     components: {
         JumbotronQuote,
         BannerList,
-        HomeWork
+        HomeWork,
+        RecentWork
     }
 }
 </script>
@@ -17,6 +19,7 @@ export default {
         <JumbotronQuote />
         <BannerList />
         <HomeWork />
+        <RecentWork />
     </main>
 </template>
 

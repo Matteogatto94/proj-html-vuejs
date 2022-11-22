@@ -1,6 +1,13 @@
 .specialist_modern {
     margin-top: 7rem;
 
+    .image_item {
+        padding: 1.5rem;
+        border: 1px solid lightgray;
+        aspect-ratio: 1 / 1;
+        border-radius: 70%;
+    }
+
     .banner {
         margin-top: 4rem;
         padding: 0 2rem;
@@ -14,11 +21,8 @@
     }
 
     img {
-        border: 1px solid black;
-        aspect-ratio: 1 / 1;
-        border-radius: 50%;
-        padding: 0.70rem;
-        width: 70px;
+        width: 50px;
+        opacity: 20%;
     }
 
     .title_spec {
@@ -31,4 +35,16 @@
         padding: 1.5rem;
     }
 
+}
+
+.title_spec {
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+.description_spec {
+    p {
+        font-size: 1.5rem;
+    }
 }

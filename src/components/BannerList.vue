@@ -52,11 +52,11 @@ export default {
             <div class="row row-cols-4 d-flex">
                 <div class="col" v-for="item in items">
                     <div class="card_specialist">
-                        <div class="image_item">
+                        <span class="image_item">
                             <img :src="getImageUrl(item.icon)">
-                        </div>
+                        </span>
 
-                        <div class="description_item">
+                        <div class="description_item py-4">
                             <h2>{{ item.text }}</h2>
                             <p>{{ item.description }}</p>
                         </div>

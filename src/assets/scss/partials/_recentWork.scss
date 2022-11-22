@@ -1,0 +1,37 @@
+.title_recent_bottom {
+    margin-top: 5rem;
+
+    .recent_top {
+        border-top: 1px solid #F5F5F5;
+    }
+
+    .recent-bottom {
+        border-bottom: 1px solid #F5F5F5;
+    }
+}
+
+.recent_work {
+    margin-top: 7rem;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .font_recent {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .title_spec {
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #FED03D;
+        display: inline;
+    }
+}
+
+.card_work {
+    img {
+        width: 400px;
+    }
+}
