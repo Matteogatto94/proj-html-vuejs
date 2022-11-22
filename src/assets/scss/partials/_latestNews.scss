@@ -1,0 +1,39 @@
+.latest_top {
+    border-top: 1px solid white;
+}
+
+.latest_bottom {
+    border-bottom: 1px solid white;
+}
+
+.latest_news_description {
+    padding: 1.5rem;
+
+}
+
+.card_latest {
+    background-color: white;
+    height: 600px;
+    line-height: 2rem;
+
+    img {
+        width: 500px;
+    }
+}
+
+.latest_news {
+    padding: 3rem;
+    background-color: #F5F5F5;
+}
+
+.title_news {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #FED03D;
+    display: inline
+}
+
+.font_news {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

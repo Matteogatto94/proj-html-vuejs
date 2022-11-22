@@ -49,7 +49,7 @@ export default {
         </div>
 
         <div class="banner">
-            <div class="row row-cols-4 d-flex">
+            <div class="row row-cols-4">
                 <div class="col" v-for="item in items">
                     <div class="card_specialist">
                         <span class="image_item">

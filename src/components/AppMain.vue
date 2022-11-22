@@ -5,6 +5,7 @@ import HomeWork from './HomeWork.vue'
 import RecentWork from './RecentWork.vue'
 import CoreValues from './CoreValues.vue'
 import HomeOwners from './HomeOwners.vue'
+import LatestNews from './LatestNews.vue'
 export default {
     name: 'AppMain',
     components: {
@@ -13,7 +14,8 @@ export default {
         HomeWork,
         RecentWork,
         CoreValues,
-        HomeOwners
+        HomeOwners,
+        LatestNews
     }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
         <RecentWork />
         <CoreValues />
         <HomeOwners />
+        <LatestNews />
     </main>
 </template>
 
