@@ -134,6 +134,28 @@ export const store = reactive({
             text: 'INTERNATIONAL OFFICES'
         }
     ],
+    coreItemIcon: [
+        {
+            icon: 'fa-solid fa-house-chimney',
+            title: 'Great Services',
+            text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+        },
+        {
+            icon: 'fa-solid fa-gear',
+            title: 'Highest Standards',
+            text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+        },
+        {
+            icon: 'fa-solid fa-users',
+            title: 'Professional Team',
+            text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+        },
+        {
+            icon: 'fa-solid fa-lightbulb',
+            title: 'Creative Solutions',
+            text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
+        }
+    ],
 
     getImageUrl(name) {
         return new URL(`/src/assets/img/${name}`, import.meta.url).href
