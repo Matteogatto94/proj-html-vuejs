@@ -81,6 +81,37 @@ export const store = reactive({
             img: 'home_logo_5.png'
         }
     ],
+    specialistIcon: [
+        {
+            icon: 'fa-solid fa-building',
+            title: 'Buildings',
+            text: 'Quis autem eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
+            titleCover: 'ARTFULLY CRAFTED',
+            textCover: "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum."
+        },
+        {
+            icon: 'fa-solid fa-arrows-rotate',
+            title: 'Renovate',
+            text: 'Quis autem eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
+            titleCover: 'ARTFULLY CRAFTED',
+            textCover: "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum."
+        },
+        {
+            icon: 'fa-solid fa-house-chimney',
+            title: 'Construct',
+            text: 'Quis autem eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
+            titleCover: 'ARTFULLY CRAFTED',
+            textCover: "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum."
+        },
+        {
+            icon: 'fa-solid fa-truck',
+            title: 'Exclusive',
+            text: 'Quis autem eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
+            titleCover: 'ARTFULLY CRAFTED',
+            textCover: "Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum."
+        }
+
+    ],
 
     getImageUrl(name) {
         return new URL(`/src/assets/img/${name}`, import.meta.url).href

@@ -10,7 +10,6 @@ export default {
             <div class="title_spec">
                 <h2 class="title_owners">Our Home Owners Say</h2>
             </div>
-
             <div class="owner_card">
                 <div class="owner_img py-5">
                     <img src="../assets/img/home-testimonial-113165296.jpg" alt="">
