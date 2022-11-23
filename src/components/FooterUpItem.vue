@@ -1,6 +1,12 @@
 <script>
+import { store } from '../store.js'
 export default {
-    name: 'FooterUpItem'
+    name: 'FooterUpItem',
+    data() {
+        return {
+            store
+        }
+    }
 }
 </script>
 
@@ -56,27 +62,10 @@ export default {
         </div>
 
         <div class="description_footer_up">
-            <ul>
+            <ul v-for="item in store.footerUpItem">
                 <li>
-                    <font-awesome-icon icon="fa-solid fa-globe" /> Corporate Location 1600 Amphitheatre Parkway
-                    London WC1 1BA
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-house-chimney" /> Residential
-                    Location 9521 Broadsberry Avenue
-                    Paddington RC7 9ZA
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-phone" /> 1.800.458.556 / 1.800.532.2112
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-envelope" /> info@your-domain.com
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-clock" /> Monday - Friday: 9:00 AM - 6:00 PM
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-clock" /> Saturday -Sunday: 9:00 AM - 12:00 PM
+                    <font-awesome-icon :icon="`${item.icon}`" />
+                    <span>{{ item.text }}</span>
                 </li>
             </ul>
         </div>

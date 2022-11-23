@@ -156,6 +156,32 @@ export const store = reactive({
             text: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia'
         }
     ],
+    footerUpItem: [
+        {
+            icon: 'fa-solid fa-globe',
+            text: 'Corporate Location 1600 Amphitheatre Parkway London WC1 1BA'
+        },
+        {
+            icon: 'fa-solid fa-house-chimney',
+            text: 'Residential Location 9521 Broadsberry Avenue Paddington RC7 9ZA'
+        },
+        {
+            icon: 'fa-solid fa-phone',
+            text: '1.800.458.556 / 1.800.532.2112'
+        },
+        {
+            icon: 'fa-solid fa-envelope',
+            text: 'info@your-domain.com'
+        },
+        {
+            icon: 'fa-solid fa-clock',
+            text: 'Monday - Friday: 9:00 AM - 6:00 PM'
+        },
+        {
+            icon: 'fa-solid fa-clock',
+            text: 'Saturday -Sunday: 9:00 AM - 12:00 PM'
+        }
+    ],
 
     getImageUrl(name) {
         return new URL(`/src/assets/img/${name}`, import.meta.url).href
