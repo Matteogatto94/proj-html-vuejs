@@ -26,13 +26,19 @@ export const store = reactive({
 
     houses: [
         {
-            img: 'project2.jpg'
+            img: 'project2.jpg',
+            text: 'Florida Heath Facility',
+            textTwo: 'Commercial'
         },
         {
-            img: 'project1.jpg'
+            img: 'project1.jpg',
+            text: 'Florida Heath Facility',
+            textTwo: 'Commercial'
         },
         {
-            img: 'project3.jpg'
+            img: 'project3.jpg',
+            text: 'Florida Heath Facility',
+            textTwo: 'Commercial'
         }
     ],
 

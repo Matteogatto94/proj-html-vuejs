@@ -12,6 +12,7 @@
 
 .recent_works {
     margin-top: 7rem;
+    position: relative;
 
     h2 {
         font-size: 3rem;
@@ -31,7 +32,33 @@
 }
 
 .card_work {
+    position: absolute;
+    top: 225px;
+
+    &:hover {
+        display: none;
+    }
+
     img {
         width: 400px;
     }
+}
+
+.cover_work {
+    height: 400px;
+    width: 400px;
+    background-color: #FED03D;
+    color: white;
+    padding-top: 8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.icon_works {
+    background-color: white;
+    color: #FED03D;
+    margin-left: 1rem;
+    padding: 0.75rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }

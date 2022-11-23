@@ -23,6 +23,16 @@ export default {
 
             <div class="row">
                 <div class="col" v-for="item in store.houses">
+                    <div class="cover_work text-center">
+                        <div class="icon_work">
+                            <font-awesome-icon icon="fa-solid fa-link" class="icon_works" />
+                            <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon_works" />
+                        </div>
+                        <div class="description_work">
+                            <p>{{ item.text }}</p>
+                            <p>{{ item.textTwo }}</p>
+                        </div>
+                    </div>
                     <div class="card_work">
                         <img :src="store.getImageUrl(item.img)">
                     </div>
