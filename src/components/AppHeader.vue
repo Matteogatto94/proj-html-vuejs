@@ -1,30 +1,10 @@
 <script>
+import { store } from '../store.js'
 export default {
     name: 'AppHeader',
     data() {
         return {
-            menu: [
-                {
-                    text: 'Home',
-                    href: '#',
-                },
-                {
-                    text: 'About',
-                    href: '#'
-                },
-                {
-                    text: 'Services',
-                    href: '#'
-                },
-                {
-                    text: 'Work',
-                    href: '#'
-                },
-                {
-                    text: 'Articles',
-                    href: '#'
-                }
-            ]
+            store
         }
     }
 }
@@ -37,7 +17,7 @@ export default {
         </div>
 
         <div class="navbar_right">
-            <a :href="item.href" v-for="item in menu" :class="item.text === 'Home' ? 'active' : ''">
+            <a :href="item.href" v-for="item in store.menu" :class="item.text === 'Home' ? 'active' : ''">
                 {{ item.text }}
             </a>
             <a class="bg_quote" href="#">Get Quote</a>

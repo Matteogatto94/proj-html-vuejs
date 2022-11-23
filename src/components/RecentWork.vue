@@ -1,24 +1,10 @@
 <script>
+import { store } from '../store.js'
 export default {
     name: 'RecentWork',
     data() {
         return {
-            items: [
-                {
-                    img: 'project2.jpg'
-                },
-                {
-                    img: 'project1.jpg'
-                },
-                {
-                    img: 'project3.jpg'
-                }
-            ]
-        }
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`../assets/img/${name}`, import.meta.url).href
+            store
         }
     }
 }
@@ -36,9 +22,9 @@ export default {
             </div>
 
             <div class="row">
-                <div class="col" v-for="item in items">
+                <div class="col" v-for="item in store.houses">
                     <div class="card_work">
-                        <img :src="getImageUrl(item.img)">
+                        <img :src="store.getImageUrl(item.img)">
                     </div>
                 </div>
             </div>

@@ -19,6 +19,7 @@ export default {
                     <div class="card_core">
                         <span class="icon_core_bg_1">
                             <font-awesome-icon icon="fa-solid fa-house-chimney" class="icon_core bg_1" />
+
                         </span>
 
                         <div class="core_details">

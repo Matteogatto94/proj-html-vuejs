@@ -18,23 +18,11 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faFolder } from '@fortawesome/free-solid-svg-icons'
+import { faTruck } from '@fortawesome/free-solid-svg-icons'
+import { faArrowsRotate } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faBuilding)
-library.add(faUsers)
-library.add(faGlobe)
-library.add(faSuitcase)
-library.add(faLightbulb)
-library.add(faGear)
-library.add(faHouseChimney)
-library.add(faPhone)
-library.add(faEnvelope)
-library.add(faClock)
-library.add(faTwitter)
-library.add(faFacebookF)
-library.add(faYoutube)
-library.add(faInstagram)
-library.add(faFolder)
+library.add(faBuilding, faUsers, faGlobe, faSuitcase, faLightbulb, faGear, faHouseChimney, faPhone, faEnvelope, faClock, faTwitter, faFacebookF, faYoutube, faInstagram, faFolder, faTruck, faArrowsRotate)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

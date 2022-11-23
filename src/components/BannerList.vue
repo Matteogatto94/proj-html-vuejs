@@ -1,36 +1,9 @@
 <script>
+import BannerItem from './BannerItem.vue'
 export default {
     name: 'BannerList',
-    data() {
-        return {
-            items: [
-                {
-                    icon: 'icon_build.svg',
-                    text: 'Buildings',
-                    description: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
-                },
-                {
-                    icon: 'arrow_refresh.svg',
-                    text: 'Renovate',
-                    description: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
-                },
-                {
-                    icon: 'home.svg',
-                    text: 'Construct',
-                    description: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
-                },
-                {
-                    icon: 'truck.svg',
-                    text: 'Exclusive',
-                    description: 'Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
-                }
-            ]
-        }
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`../assets/img/${name}`, import.meta.url).href
-        }
+    components: {
+        BannerItem
     }
 }
 </script>
@@ -50,18 +23,7 @@ export default {
 
         <div class="banner">
             <div class="row row-cols-4">
-                <div class="col" v-for="item in items">
-                    <div class="card_specialist">
-                        <span class="image_item">
-                            <img :src="getImageUrl(item.icon)">
-                        </span>
-
-                        <div class="description_item py-4">
-                            <h2>{{ item.text }}</h2>
-                            <p>{{ item.description }}</p>
-                        </div>
-                    </div>
-                </div>
+                <BannerItem />
             </div>
         </div>
 

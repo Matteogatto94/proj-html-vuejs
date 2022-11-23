@@ -1,28 +1,10 @@
 .specialist_modern {
     margin-top: 7rem;
 
-    .image_item {
-        padding: 1.5rem;
-        border: 1px solid lightgray;
-        aspect-ratio: 1 / 1;
-        border-radius: 70%;
-    }
-
     .banner {
         margin-top: 4rem;
         padding: 0 2rem;
-
-        .card_specialist {
-            background-color: #F5F5F5;
-            padding: 1.5rem;
-            border-radius: 10%;
-
-        }
-    }
-
-    img {
-        width: 50px;
-        opacity: 20%;
+        position: relative;
     }
 
     .title_spec {
@@ -47,4 +29,45 @@
     p {
         font-size: 1.5rem;
     }
+}
+
+.cover_specialist {
+    background-color: #F5F5F5;
+    padding: 1.5rem;
+    border-radius: 10%;
+    height: 300px;
+    position: absolute;
+    width: 459px;
+    top: 0;
+
+    &:hover {
+        display: none;
+    }
+}
+
+.card_specialist {
+    background-color: #FED03D;
+    padding: 1.5rem;
+    border-radius: 10%;
+    height: 300px;
+    width: 459px;
+
+    .button_specialist {
+        a {
+            background-color: #FFE07B;
+            text-decoration: none;
+            color: black;
+            padding: 0.75rem 3rem;
+        }
+    }
+}
+
+
+.icon_font_specialist {
+    font-size: 30px;
+    color: #BCBCBC;
+    border: 1px solid #BCBCBC;
+    padding: 1rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
 }
