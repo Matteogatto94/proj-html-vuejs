@@ -112,6 +112,28 @@ export const store = reactive({
         }
 
     ],
+    homeWorkIcon: [
+        {
+            icon: 'fa-solid fa-suitcase',
+            numb: '3534',
+            text: 'PLANNING APPLICATIONS'
+        },
+        {
+            icon: 'fa-solid fa-building',
+            numb: '896',
+            text: 'COMPLETED PROJECTS'
+        },
+        {
+            icon: 'fa-solid fa-users',
+            numb: '172',
+            text: 'TRAINED PROFESSIONALS'
+        },
+        {
+            icon: 'fa-solid fa-globe',
+            numb: '19',
+            text: 'INTERNATIONAL OFFICES'
+        }
+    ],
 
     getImageUrl(name) {
         return new URL(`/src/assets/img/${name}`, import.meta.url).href
