@@ -1,30 +1,10 @@
 <script>
+import { store } from '../store.js'
 export default {
     name: 'TrustedPartners',
     data() {
         return {
-            items: [
-                {
-                    img: 'home_logo_1.png'
-                },
-                {
-                    img: 'home_logo_2.png'
-                },
-                {
-                    img: 'home_logo_3.png'
-                },
-                {
-                    img: 'home_logo_4.png'
-                },
-                {
-                    img: 'home_logo_5.png'
-                }
-            ]
-        }
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`../assets/img/${name}`, import.meta.url).href
+            store
         }
     }
 }
@@ -41,8 +21,8 @@ export default {
             </div>
 
             <div class="row">
-                <div class="col" v-for="item in items">
-                    <img :src="getImageUrl(item.img)">
+                <div class="col" v-for="item in store.partners">
+                    <img :src="store.getImageUrl(item.img)">
                 </div>
             </div>
 

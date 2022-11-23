@@ -12,7 +12,6 @@
 
 .recent_works {
     margin-top: 7rem;
-    position: relative;
 
     h2 {
         font-size: 3rem;
@@ -32,15 +31,16 @@
 }
 
 .card_work {
-    position: absolute;
-    top: 225px;
-
-    &:hover {
-        display: none;
-    }
+    position: relative;
 
     img {
         width: 400px;
+        position: absolute;
+        top: -400px;
+
+        &:hover {
+            display: none;
+        }
     }
 }
 

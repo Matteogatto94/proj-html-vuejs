@@ -1,3 +1,10 @@
+.latest_up {
+    padding: 1.5rem;
+    background-color: #FED03D;
+    height: 250px;
+    width: 416px;
+}
+
 .latest_top {
     border-top: 1px solid white;
 }
@@ -15,9 +22,16 @@
     background-color: white;
     height: 600px;
     line-height: 2rem;
+    position: relative;
 
     img {
-        width: 500px;
+        width: 416px;
+        position: absolute;
+        top: 0;
+
+        &:hover {
+            display: none;
+        }
     }
 }
 

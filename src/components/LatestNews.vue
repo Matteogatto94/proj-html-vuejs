@@ -1,33 +1,10 @@
 <script>
+import { store } from '../store.js'
 export default {
     name: 'LatestNews',
     data() {
         return {
-            things: [
-                {
-                    image: 'trattore.jpg',
-                    title: "Redeveloping Florida's Remote Southern Coast",
-                    date: 'December 7th, 2015',
-                    description: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed'
-                },
-                {
-                    image: 'ponte.jpg',
-                    title: "How We Manage Large Construction Projects",
-                    date: 'December 7th, 2015',
-                    description: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed'
-                },
-                {
-                    image: 'cantiere_navale.jpg',
-                    title: 'Future proofing a modern home',
-                    date: 'December 6th, 2015',
-                    description: 'Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed'
-                }
-            ]
-        }
-    },
-    methods: {
-        getImageUrl(name) {
-            return new URL(`../assets/img/${name}`, import.meta.url).href
+            store
         }
     }
 }
@@ -44,15 +21,25 @@ export default {
             </div>
 
             <div class="row">
-                <div class="col" v-for="item in things">
+                <div class="col" v-for="item in store.things">
                     <div class="card_latest">
-                        <img :src="getImageUrl(item.image)" alt="">
+                        <div class="latest_up text-center">
+                            <div class="icon_work">
+                                <font-awesome-icon icon="fa-solid fa-link" class="icon_works" />
+                                <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="icon_works" />
+                            </div>
+                            <div class="description_work text-white">
+                                <p>{{ item.title }}</p>
+                                <p>{{ item.note }}</p>
+                            </div>
+                        </div>
                         <div class="latest_news_description">
                             <h6 class="text-left">{{ item.title }}</h6>
                             <span class="text-left">{{ item.date }}</span>
                             <hr>
                             <p class="text-center">{{ item.description }}</p>
                         </div>
+                        <img :src="store.getImageUrl(item.image)" alt="">
                     </div>
                 </div>
             </div>
