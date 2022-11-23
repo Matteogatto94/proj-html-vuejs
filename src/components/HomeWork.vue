@@ -11,6 +11,7 @@ export default {
 </script>
 
 <template>
+    <div class="vawe_up"></div>
     <section class="home_work d-flex align-items-center text-center">
         <div class="container">
             <div class="row">
@@ -24,8 +25,26 @@ export default {
             </div>
         </div>
     </section>
+    <div class="vawe_down"></div>
 </template>
 
 <style lang="scss" scoped>
+.vawe_up {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    border-radius: 80%;
+    aspect-ratio: 1 / 1;
+}
 
+.vawe_down {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 2570px;
+    border-radius: 80%;
+    aspect-ratio: 1 / 1;
+}
 </style>

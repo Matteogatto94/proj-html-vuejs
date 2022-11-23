@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+    <div class="vawe_up"></div>
     <section class="home_owners text-center">
         <div class="container">
             <div class="title_spec">
@@ -24,8 +25,27 @@ export default {
             </div>
         </div>
     </section>
+    <div class="vawe_down"></div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.vawe_up {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    border-radius: 80%;
+    aspect-ratio: 1 / 1;
+    top: 4320px;
+}
 
+.vawe_down {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    border-radius: 80%;
+    aspect-ratio: 1 / 1;
+    top: 5030px;
+}
 </style>
