@@ -62,8 +62,8 @@ export default {
         </div>
 
         <div class="description_footer_up">
-            <ul v-for="item in store.footerUpItem">
-                <li>
+            <ul>
+                <li v-for="item in store.footerUpItem">
                     <font-awesome-icon :icon="`${item.icon}`" />
                     <span>{{ item.text }}</span>
                 </li>
